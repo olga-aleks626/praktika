@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+header{
+    background-color: #FFD4D4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.obchiy_blok{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1440px;
+    align-items: center;
+}
+
+.navigation{
+    width: 40%;
+    height: 40px;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #7e0000;
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    color: #2f0000;
+    margin-bottom: 10px;
+}
+
+
+.nebo_foto{
+    background-image: url(/pi/nebo.png);
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1.25%;
+}
+
+@media screen and (max-width: 768px){
+    .obchiy_blok .logo{
+        display: none;
+    }
+    .obchiy_blok{
+        justify-content: center;
+    }
+    .navigation a{
+        font-size: 12px;
+    }
+    .navigation{
+        min-width: 250px;
+    }
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+.big_blok_1{
+    width: 80%;
+
+}
+
+.big_blok_1 .mini_blok_1{
+    width: 50%;
+    display: flex;
+
+}
+
+
+.big_blok_1 .mini_blok_1 .img_blok{
+    max-width: 383px;
+}
