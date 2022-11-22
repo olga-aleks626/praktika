@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="gl">
         <div class="obchiy_blok">
             <div class="logo">
                 <a href="#">
@@ -16,53 +16,90 @@
                 </a>
             </div>
             <div class="navigation">
-                <a href="#">Главная</a>
-                <a href="#">Команда</a>
-                <a href="#">Статьи</a>
-                <a href="#">Написать</a>
+                <a href="#gl">Главная</a>
+                <a href="#km">Команда</a>
+                <a href="#st">Статьи</a>
+                <a href="#nn">Написать</a>
             </div>
         </div>
     </header>
     
     <main>
-        <div class="nebo_foto"></div>
+        <div class="nebo_foto">
+            <button id="bt">
+                Записаться 
+            </button>
+        </div>
         <div class="all">
             <div class="big_blok_1">
-                <div class="mini_blok1">
-                    <div class="img_blok">
-                        <img src="/pi/people.png" alt="">
-                    </div>
+                    <img src="/pi/people.png" alt="" id="fi">
                     <div class="text_blok">
-                        <div class="zag">
+                        <p class="zag">
                             ПРИВЕТСТВУЕМ ТЕБЯ, ДОРОГОЙ ДРУГ!
-                        </div>
-                        <div class="text">
+                        </p>
+                        <p class="text">
                             «Психология просто» - это место встречи людей, 
                             которые хотят познать себя и жить в гармонии 
                             с миром и профессиональных психологов, 
                             вдохновенных целью сделать жизнь других людей 
                             осмысленнее и светлее.
-                        </div>
+                        </p>
                     </div>
+                    
+            </div>
+            <h1 id="km">
+                НАШИ СПЕЦИАЛИСТЫ В ОБЛАСТИ ПСИХОЛОГИИ
+            </h1>
+            <div class="big_blok_2">
+                <div class="pers">
+                    <img src="/pi/d.png" alt="">
+                    <p>
+                        АННА ФРОЛОВА
+                    </p>
                 </div>
-                <div class="mini_blok2">
-                    <div class="img_blok">
-                        <img src="/pi/heand.png" alt="">
-                    </div>
-                    <div class="text">
-                        Так же наша организация проводит личные 
-                        сесии для проработки проблемных моментов наших клиентов.
-                    </div>
-                    <button>
-                        Записаться 
-                    </button>
+                <div class="pers">
+                    <img src="/pi/d1.png" alt="">
+                    <p>
+                        АНАСТАСИЯ СИРОТА
+                    </p>
+                </div>
+                <div class="pers">
+                    <img src="/pi/d2.png" alt="">
+                    <p>
+                        ДИАНА УДАЛОВА
+                    </p>
+                </div>
+            </div>
+            <h1 id="st">Все статьи</h1>
+            <div class="big_blok_3">
+                <div class="stat">
+                    <img src="pi/narc.png" alt="">
+                    <a href="#">
+                        НАРЦИССЫ - КТО ОНИ НА САМОМ ДЕЛЕ?
+                    </a>
+                    <p>
+                        Наверняка, и среди ваших знакомых есть кто-то, о ком вы думали «да он типичный нарцисс». Скорее всего, портрет этого человека будет выглядеть так: самоуверенный, амбициозный, эгоцентрист, склонный. 
+                    </p>
+                </div>
+                <div class="stat">
+                    <img src="pi/privaz.png" alt="">
+                    <a href="#">
+                        ПРИВЯЗАННОСТЬ И ЕЕ ТИПЫ
+                    </a>
+                    <p>
+                        И снова возвращаемся в детство. Родители - ключевые фигуры для ребёнка. Именно в контакте с ними, в том, как они к нему относятся, реагируют на проявление его эмоций, и формируется привязанность.
+                    </p>
                 </div>
             </div>
         </div>
         
     </main>
     <footer>
-
+        <div class="ft" id="nn">
+            <a href="#">ВК</a>
+            <a href="#">Телеграмм</a>
+        </div>
+        
     </footer>
 </body>
 </html>
