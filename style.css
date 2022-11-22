@@ -54,7 +54,7 @@ header{
 
 
 .nebo_foto{
-    background-image: url(/pi/nebo.png);
+    background-image: url(pi/nebo.png);
     width: 100%;
     min-height: 100px;
     max-height: 100px;
